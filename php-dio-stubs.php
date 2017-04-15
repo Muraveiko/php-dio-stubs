@@ -55,7 +55,7 @@ function dio_read ( $fd, $len = 1024  ){}
  * @param resource $fd  The file descriptor returned by dio_open()
  * @param string $data  The written data.
  * @param int $len The length of data to write in bytes. If not specified, the
-function writes all the data to the specified file.
+ * function writes all the data to the specified file.
  *
  * @return int Returns the number of bytes written
  *
